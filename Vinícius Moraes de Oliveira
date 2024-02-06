@@ -1,0 +1,7 @@
+n = int(input('digite o valor para calcular seu fatorial: '))
+
+c = n
+for c in range(n,1):
+    c -= 1
+print(c,n)
+print('fim')
